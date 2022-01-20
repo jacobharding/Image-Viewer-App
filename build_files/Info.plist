@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"?>
+<dict>
+    <key>CFBundleName</key>
+    <string>ImageViewer</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.ImageViewer10</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>abcd</string>
+    <key>CFBundleExecutable</key>
+    <string>ImageViewer</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+
+
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key> <!-- This key value pair is required -->
+            <string>Image Files</string>
+
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>     <!-- This key value pair is required -->
+
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>png</string>
+                <string>jpg</string>
+                <string>jpeg</string>
+            </array>
+
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.png</string>
+                <string>public.jpeg</string>
+            </array>
+            
+        </dict>
+    </array>
+</dict>
+</plist>
